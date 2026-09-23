@@ -1,0 +1,68 @@
+p { 
+    color: red; 
+    font-size: 12px;
+}
+
+
+h1 { color: green;}
+
+.segundo {
+    color: blue;
+}
+
+#cedula {
+    color: red;
+    font-weight: bold;
+}
+
+h1, h2, h3 { 
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+div {
+    border-color: black;
+    border-radius: -15px;
+    border-style: solid;
+    border-width: 5px;
+    margin:5px;
+    -webkit-border-radius: -15px;
+    -moz-border-radius: -15px;
+    -ms-border-radius: -15px;
+    -o-border-radius: -15px;
+}
+
+div h1 {
+    color: purple;
+}
+
+button {
+    padding: 5px;
+} 
+
+#ejemplo1 {
+  box-sizing: content-box;  
+  width: 300px;
+  height: 100px;
+  padding: 20px;  
+  border: 5px solid red;
+}
+
+#ejemplo2 {
+  box-sizing: border-box;
+  width: 300px;
+  height: 100px;
+  padding: 20px;  
+  border: 5px dashed blue;
+}
+
+.valido{
+  border: solid;
+  border-color: chartreuse;
+  border-spacing: 2px;
+}
+.invalido{
+  border: dotted;
+  border-color: red;
+  border-spacing: 3px;
+}
